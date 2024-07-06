@@ -1,0 +1,560 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="book.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130619937-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130619937-1');
+</script>
+
+
+
+
+<title>Top Event Management Company, Event Planners in India -360 Event Planners</title>
+<meta name="description"  content="We are top notch event management company with result oriented event services for more than 10 yrs, Hire our most trusted professional event planners for successful events." />
+
+
+
+
+
+
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Secular+One&amp;subset=hebrew,latin-ext" rel="stylesheet">
+<link href="css/fontello-embedded.css" type="text/css" rel="stylesheet">
+<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+<link href="css/web.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<style>
+.error{
+	color:#f00;
+}
+</style>
+<body>
+
+<header>   
+<div class="container">
+<div class="row">
+<nav class="navbar navbar-expand-lg navbar-light">
+ <a class="navbar-brand" href="index.php"><img src="./img/Event_logo_in.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us</a>
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Services </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="corporate-events.php">Corporate Events</a>
+          <a class="dropdown-item" href="wedding-events.php">Wedding Events</a>
+          <a class="dropdown-item" href="celebrity-management.php">Celebrity Management</a>
+           <a class="dropdown-item" href="pr-management.php">PR Management</a>
+        </div>
+      </li>
+      
+      
+      
+      <li class="nav-item">
+        <a class="nav-link menulinks" href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
+</div>
+</header>
+<section class="bannerbg" id="home">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 d-flex align-items-center">
+        <div class="home-content">
+          <h1>We plan the <span> best events </span></h1>
+          <p>Look no further! We proudly announce ourselves as the best event management company in India! </p>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-5">
+        <div class="homeform">
+          <h4 class=" text-center pb-3 text-uppercase">Book your event planner now</h4>
+          <div id="msgloader"></div>
+		<form action="addevents" method="get"  id="freetrialfrm" onsubmit="return validatefreetrial();" enctype="multipart/form-data">
+            <div class="form-group">
+              <input type="text" class="form-control" name="name" id="name" placeholder="Enter Name">
+			  <span class="error" id="nameErr"></span>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="email" id="email" placeholder="Enter Email">
+			  <span class="error" id="emailErr"></span>
+            </div>
+            <div class="form-group">
+              <select id="country" name="country" onchange="$('#country_code').val($('#country option:selected').attr('data-ccode'));" class="form-control">
+                <option value="" selected="">Please Select Country</option>
+                <option value="Afghanistan" data-ccode="93">Afghanistan</option>
+                <option value="Albania" data-ccode="355">Albania</option>
+                <option value="Algeria" data-ccode="213">Algeria</option>
+                <option value="American Samoa" data-ccode="1684">American Samoa</option>
+                <option value="Andorra" data-ccode="376">Andorra</option>
+                <option value="Angola" data-ccode="244">Angola</option>
+                <option value="Anguilla" data-ccode="1264">Anguilla</option>
+                <option value="Antigua and Barbuda" data-ccode="1268">Antigua and Barbuda</option>
+                <option value="Argentina" data-ccode="54">Argentina</option>
+                <option value="Armenia" data-ccode="374">Armenia</option>
+                <option value="Aruba" data-ccode="297">Aruba</option>
+                <option value="Australia" data-ccode="61">Australia</option>
+                <option value="Austria" data-ccode="43">Austria</option>
+                <option value="Azerbaijan" data-ccode="994">Azerbaijan</option>
+                <option value="Bahamas" data-ccode="1242">Bahamas</option>
+                <option value="Bahrain" data-ccode="973">Bahrain</option>
+                <option value="Bangladesh" data-ccode="880">Bangladesh</option>
+                <option value="Barbados" data-ccode="1246">Barbados</option>
+                <option value="Belarus" data-ccode="375">Belarus</option>
+                <option value="Belgium" data-ccode="32">Belgium</option>
+                <option value="Belize" data-ccode="501">Belize</option>
+                <option value="Benin" data-ccode="229">Benin</option>
+                <option value="Bermuda" data-ccode="1441">Bermuda</option>
+                <option value="Bhutan" data-ccode="975">Bhutan</option>
+                <option value="Bolivia" data-ccode="591">Bolivia</option>
+                <option value="Bosnia and Herzegovina" data-ccode="387">Bosnia and Herzegovina</option>
+                <option value="Botswana" data-ccode="267">Botswana</option>
+                <option value="Brazil" data-ccode="55">Brazil</option>
+                <option value="British Indian Ocean Territory" data-ccode="246">British Indian Ocean Territory</option>
+                <option value="Brunei Darussalam" data-ccode="673">Brunei Darussalam</option>
+                <option value="Bulgaria" data-ccode="359">Bulgaria</option>
+                <option value="Burkina Faso" data-ccode="226">Burkina Faso</option>
+                <option value="Burundi" data-ccode="257">Burundi</option>
+                <option value="Cambodia" data-ccode="855">Cambodia</option>
+                <option value="Cameroon" data-ccode="237">Cameroon</option>
+                <option value="Canada" data-ccode="1">Canada</option>
+                <option value="Cape Verde" data-ccode="238">Cape Verde</option>
+                <option value="Cayman Islands" data-ccode="1345">Cayman Islands</option>
+                <option value="Central African Republic" data-ccode="236">Central African Republic</option>
+                <option value="Chad" data-ccode="235">Chad</option>
+                <option value="Chile" data-ccode="56">Chile</option>
+                <option value="China" data-ccode="86">China</option>
+                <option value="Christmas Island" data-ccode="61">Christmas Island</option>
+                <option value="Cocos (Keeling) Islands" data-ccode="672">Cocos (Keeling) Islands</option>
+                <option value="Colombia" data-ccode="57">Colombia</option>
+                <option value="Comoros" data-ccode="269">Comoros</option>
+                <option value="Congo" data-ccode="242">Congo</option>
+                <option value="Congo, the Democratic Republic of the" data-ccode="242">Congo, the Democratic Republic of the</option>
+                <option value="Cook Islands" data-ccode="682">Cook Islands</option>
+                <option value="Costa Rica" data-ccode="506">Costa Rica</option>
+                <option value="Cote D'Ivoire" data-ccode="225">Cote D'Ivoire</option>
+                <option value="Croatia" data-ccode="385">Croatia</option>
+                <option value="Cuba" data-ccode="53">Cuba</option>
+                <option value="Cyprus" data-ccode="357">Cyprus</option>
+                <option value="Czech Republic" data-ccode="420">Czech Republic</option>
+                <option value="Denmark" data-ccode="45">Denmark</option>
+                <option value="Djibouti" data-ccode="253">Djibouti</option>
+                <option value="Dominica" data-ccode="1767">Dominica</option>
+                <option value="Dominican Republic" data-ccode="1809">Dominican Republic</option>
+                <option value="Ecuador" data-ccode="593">Ecuador</option>
+                <option value="Egypt" data-ccode="20">Egypt</option>
+                <option value="El Salvador" data-ccode="503">El Salvador</option>
+                <option value="Equatorial Guinea" data-ccode="240">Equatorial Guinea</option>
+                <option value="Eritrea" data-ccode="291">Eritrea</option>
+                <option value="Estonia" data-ccode="372">Estonia</option>
+                <option value="Ethiopia" data-ccode="251">Ethiopia</option>
+                <option value="Falkland Islands (Malvinas)" data-ccode="500">Falkland Islands (Malvinas)</option>
+                <option value="Faroe Islands" data-ccode="298">Faroe Islands</option>
+                <option value="Fiji" data-ccode="679">Fiji</option>
+                <option value="Finland" data-ccode="358">Finland</option>
+                <option value="France" data-ccode="33">France</option>
+                <option value="French Guiana" data-ccode="594">French Guiana</option>
+                <option value="French Polynesia" data-ccode="689">French Polynesia</option>
+                <option value="Gabon" data-ccode="241">Gabon</option>
+                <option value="Gambia" data-ccode="220">Gambia</option>
+                <option value="Georgia" data-ccode="995">Georgia</option>
+                <option value="Germany" data-ccode="49">Germany</option>
+                <option value="Ghana" data-ccode="233">Ghana</option>
+                <option value="Gibraltar" data-ccode="350">Gibraltar</option>
+                <option value="Greece" data-ccode="30">Greece</option>
+                <option value="Greenland" data-ccode="299">Greenland</option>
+                <option value="Grenada" data-ccode="1473">Grenada</option>
+                <option value="Guadeloupe" data-ccode="590">Guadeloupe</option>
+                <option value="Guam" data-ccode="1671">Guam</option>
+                <option value="Guatemala" data-ccode="502">Guatemala</option>
+                <option value="Guinea" data-ccode="224">Guinea</option>
+                <option value="Guinea-Bissau" data-ccode="245">Guinea-Bissau</option>
+                <option value="Guyana" data-ccode="592">Guyana</option>
+                <option value="Haiti" data-ccode="509">Haiti</option>
+                <option value="Holy See (Vatican City State)" data-ccode="39">Holy See (Vatican City State)</option>
+                <option value="Honduras" data-ccode="504">Honduras</option>
+                <option value="Hong Kong" data-ccode="852">Hong Kong</option>
+                <option value="Hungary" data-ccode="36">Hungary</option>
+                <option value="Iceland" data-ccode="354">Iceland</option>
+                <option value="India" data-ccode="91" selected="">India</option>
+                <option value="Indonesia" data-ccode="62">Indonesia</option>
+                <option value="Iran, Islamic Republic of" data-ccode="98">Iran, Islamic Republic of</option>
+                <option value="Iraq" data-ccode="964">Iraq</option>
+                <option value="Ireland" data-ccode="353">Ireland</option>
+                <option value="Israel" data-ccode="972">Israel</option>
+                <option value="Italy" data-ccode="39">Italy</option>
+                <option value="Jamaica" data-ccode="1876">Jamaica</option>
+                <option value="Japan" data-ccode="81">Japan</option>
+                <option value="Jordan" data-ccode="962">Jordan</option>
+                <option value="Kazakhstan" data-ccode="7">Kazakhstan</option>
+                <option value="Kenya" data-ccode="254">Kenya</option>
+                <option value="Kiribati" data-ccode="686">Kiribati</option>
+                <option value="Korea, Democratic People's Republic of" data-ccode="850">Korea, Democratic People's Republic of</option>
+                <option value="Korea, Republic of" data-ccode="82">Korea, Republic of</option>
+                <option value="Kuwait" data-ccode="965">Kuwait</option>
+                <option value="Kyrgyzstan" data-ccode="996">Kyrgyzstan</option>
+                <option value="Lao People's Democratic Republic" data-ccode="856">Lao People's Democratic Republic</option>
+                <option value="Latvia" data-ccode="371">Latvia</option>
+                <option value="Lebanon" data-ccode="961">Lebanon</option>
+                <option value="Lesotho" data-ccode="266">Lesotho</option>
+                <option value="Liberia" data-ccode="231">Liberia</option>
+                <option value="Libyan Arab Jamahiriya" data-ccode="218">Libyan Arab Jamahiriya</option>
+                <option value="Liechtenstein" data-ccode="423">Liechtenstein</option>
+                <option value="Lithuania" data-ccode="370">Lithuania</option>
+                <option value="Luxembourg" data-ccode="352">Luxembourg</option>
+                <option value="Macao" data-ccode="853">Macao</option>
+                <option value="Macedonia, the Former Yugoslav Republic of" data-ccode="389">Macedonia, the Former Yugoslav Republic of</option>
+                <option value="Madagascar" data-ccode="261">Madagascar</option>
+                <option value="Malawi" data-ccode="265">Malawi</option>
+                <option value="Malaysia" data-ccode="60">Malaysia</option>
+                <option value="Maldives" data-ccode="960">Maldives</option>
+                <option value="Mali" data-ccode="223">Mali</option>
+                <option value="Malta" data-ccode="356">Malta</option>
+                <option value="Marshall Islands" data-ccode="692">Marshall Islands</option>
+                <option value="Martinique" data-ccode="596">Martinique</option>
+                <option value="Mauritania" data-ccode="222">Mauritania</option>
+                <option value="Mauritius" data-ccode="230">Mauritius</option>
+                <option value="Mayotte" data-ccode="269">Mayotte</option>
+                <option value="Mexico" data-ccode="52">Mexico</option>
+                <option value="Micronesia, Federated States of" data-ccode="691">Micronesia, Federated States of</option>
+                <option value="Moldova, Republic of" data-ccode="373">Moldova, Republic of</option>
+                <option value="Monaco" data-ccode="377">Monaco</option>
+                <option value="Mongolia" data-ccode="976">Mongolia</option>
+                <option value="Montserrat" data-ccode="1664">Montserrat</option>
+                <option value="Morocco" data-ccode="212">Morocco</option>
+                <option value="Mozambique" data-ccode="258">Mozambique</option>
+                <option value="Myanmar" data-ccode="95">Myanmar</option>
+                <option value="Namibia" data-ccode="264">Namibia</option>
+                <option value="Nauru" data-ccode="674">Nauru</option>
+                <option value="Nepal" data-ccode="977">Nepal</option>
+                <option value="Netherlands" data-ccode="31">Netherlands</option>
+                <option value="Netherlands Antilles" data-ccode="599">Netherlands Antilles</option>
+                <option value="New Caledonia" data-ccode="687">New Caledonia</option>
+                <option value="New Zealand" data-ccode="64">New Zealand</option>
+                <option value="Nicaragua" data-ccode="505">Nicaragua</option>
+                <option value="Niger" data-ccode="227">Niger</option>
+                <option value="Nigeria" data-ccode="234">Nigeria</option>
+                <option value="Niue" data-ccode="683">Niue</option>
+                <option value="Norfolk Island" data-ccode="672">Norfolk Island</option>
+                <option value="Northern Mariana Islands" data-ccode="1670">Northern Mariana Islands</option>
+                <option value="Norway" data-ccode="47">Norway</option>
+                <option value="Oman" data-ccode="968">Oman</option>
+                <option value="Pakistan" data-ccode="92">Pakistan</option>
+                <option value="Palau" data-ccode="680">Palau</option>
+                <option value="Palestinian Territory, Occupied" data-ccode="970">Palestinian Territory, Occupied</option>
+                <option value="Panama" data-ccode="507">Panama</option>
+                <option value="Papua New Guinea" data-ccode="675">Papua New Guinea</option>
+                <option value="Paraguay" data-ccode="595">Paraguay</option>
+                <option value="Peru" data-ccode="51">Peru</option>
+                <option value="Philippines" data-ccode="63">Philippines</option>
+                <option value="Poland" data-ccode="48">Poland</option>
+                <option value="Portugal" data-ccode="351">Portugal</option>
+                <option value="Puerto Rico" data-ccode="1787">Puerto Rico</option>
+                <option value="Qatar" data-ccode="974">Qatar</option>
+                <option value="Reunion" data-ccode="262">Reunion</option>
+                <option value="Romania" data-ccode="40">Romania</option>
+                <option value="Russian Federation" data-ccode="70">Russian Federation</option>
+                <option value="Rwanda" data-ccode="250">Rwanda</option>
+                <option value="Saint Helena" data-ccode="290">Saint Helena</option>
+                <option value="Saint Kitts and Nevis" data-ccode="1869">Saint Kitts and Nevis</option>
+                <option value="Saint Lucia" data-ccode="1758">Saint Lucia</option>
+                <option value="Saint Pierre and Miquelon" data-ccode="508">Saint Pierre and Miquelon</option>
+                <option value="Saint Vincent and the Grenadines" data-ccode="1784">Saint Vincent and the Grenadines</option>
+                <option value="Samoa" data-ccode="684">Samoa</option>
+                <option value="San Marino" data-ccode="378">San Marino</option>
+                <option value="Sao Tome and Principe" data-ccode="239">Sao Tome and Principe</option>
+                <option value="Saudi Arabia" data-ccode="966">Saudi Arabia</option>
+                <option value="Senegal" data-ccode="221">Senegal</option>
+                <option value="Serbia and Montenegro" data-ccode="381">Serbia and Montenegro</option>
+                <option value="Seychelles" data-ccode="248">Seychelles</option>
+                <option value="Sierra Leone" data-ccode="232">Sierra Leone</option>
+                <option value="Singapore" data-ccode="65">Singapore</option>
+                <option value="Slovakia" data-ccode="421">Slovakia</option>
+                <option value="Slovenia" data-ccode="386">Slovenia</option>
+                <option value="Solomon Islands" data-ccode="677">Solomon Islands</option>
+                <option value="Somalia" data-ccode="252">Somalia</option>
+                <option value="South Africa" data-ccode="27">South Africa</option>
+                <option value="Spain" data-ccode="34">Spain</option>
+                <option value="Sri Lanka" data-ccode="94">Sri Lanka</option>
+                <option value="Sudan" data-ccode="249">Sudan</option>
+                <option value="Suriname" data-ccode="597">Suriname</option>
+                <option value="Svalbard and Jan Mayen" data-ccode="47">Svalbard and Jan Mayen</option>
+                <option value="Swaziland" data-ccode="268">Swaziland</option>
+                <option value="Sweden" data-ccode="46">Sweden</option>
+                <option value="Switzerland" data-ccode="41">Switzerland</option>
+                <option value="Syrian Arab Republic" data-ccode="963">Syrian Arab Republic</option>
+                <option value="Taiwan, Province of China" data-ccode="886">Taiwan, Province of China</option>
+                <option value="Tajikistan" data-ccode="992">Tajikistan</option>
+                <option value="Tanzania, United Republic of" data-ccode="255">Tanzania, United Republic of</option>
+                <option value="Thailand" data-ccode="66">Thailand</option>
+                <option value="Timor-Leste" data-ccode="670">Timor-Leste</option>
+                <option value="Togo" data-ccode="228">Togo</option>
+                <option value="Tokelau" data-ccode="690">Tokelau</option>
+                <option value="Tonga" data-ccode="676">Tonga</option>
+                <option value="Trinidad and Tobago" data-ccode="1868">Trinidad and Tobago</option>
+                <option value="Tunisia" data-ccode="216">Tunisia</option>
+                <option value="Turkey" data-ccode="90">Turkey</option>
+                <option value="Turkmenistan" data-ccode="7370">Turkmenistan</option>
+                <option value="Turks and Caicos Islands" data-ccode="1649">Turks and Caicos Islands</option>
+                <option value="Tuvalu" data-ccode="688">Tuvalu</option>
+                <option value="Uganda" data-ccode="256">Uganda</option>
+                <option value="Ukraine" data-ccode="380">Ukraine</option>
+                <option value="United Arab Emirates" data-ccode="971">United Arab Emirates</option>
+                <option value="United Kingdom" data-ccode="44">United Kingdom</option>
+                <option value="United States" data-ccode="1">United States</option>
+                <option value="United States Minor Outlying Islands" data-ccode="1">United States Minor Outlying Islands</option>
+                <option value="Uruguay" data-ccode="598">Uruguay</option>
+                <option value="Uzbekistan" data-ccode="998">Uzbekistan</option>
+                <option value="Vanuatu" data-ccode="678">Vanuatu</option>
+                <option value="Venezuela" data-ccode="58">Venezuela</option>
+                <option value="Viet Nam" data-ccode="84">Viet Nam</option>
+                <option value="Virgin Islands, British" data-ccode="1284">Virgin Islands, British</option>
+                <option value="Virgin Islands, U.s." data-ccode="1340">Virgin Islands, U.s.</option>
+                <option value="Wallis and Futuna" data-ccode="681">Wallis and Futuna</option>
+                <option value="Western Sahara" data-ccode="212">Western Sahara</option>
+                <option value="Yemen" data-ccode="967">Yemen</option>
+                <option value="Zambia" data-ccode="260">Zambia</option>
+                <option value="Zimbabwe" data-ccode="263">Zimbabwe</option>
+                <option value="Serbia" data-ccode="381">Serbia</option>
+                <option value="Montenegro" data-ccode="382">Montenegro</option>
+                <option value="Aland Islands" data-ccode="358">Aland Islands</option>
+                <option value="Bonaire, Sint Eustatius and Saba" data-ccode="599">Bonaire, Sint Eustatius and Saba</option>
+                <option value="Curacao" data-ccode="599">Curacao</option>
+                <option value="Guernsey" data-ccode="44">Guernsey</option>
+                <option value="Isle of Man" data-ccode="44">Isle of Man</option>
+                <option value="Jersey" data-ccode="44">Jersey</option>
+                <option value="Kosovo" data-ccode="381">Kosovo</option>
+                <option value="Saint Barthelemy" data-ccode="590">Saint Barthelemy</option>
+                <option value="Saint Martin" data-ccode="590">Saint Martin</option>
+                <option value="Sint Maarten" data-ccode="1">Sint Maarten</option>
+                <option value="South Sudan" data-ccode="211">South Sudan</option>
+              </select>
+			  <span class="error" id="countryErr"></span>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <input type="text" value="+91" name="country_code" id="country_code" readonly="readonly" class="form-control">
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Enter Phone No." onkeypress="return isNumber(event);">
+				  <span class="error" id="phoneErr"></span>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="3" name="message" id="message" placeholder="Message"></textarea>
+			  <span class="error" id="messageErr"></span>
+            </div>
+			
+            <div class="form-group">
+              <!--<input type="submit" class="btn btnbg col-md-12" value="Submit">-->
+
+              <input type="submit" id="sbmtbtn" class="btn bgbtn col-md-12" value="Submit">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="aboutser pt-5 pb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 mx-auto text-center mb-5">
+        <h3>Our Services </h3>
+        <p> Get your events designed, planned and organized by the leading event management planners in India. Enjoy hassle-free events, parties, conferences, wedding, PR events, and what not!  
+</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="serbox">
+        <a href="corporate-events.html"> <img src="./img/corpr.png" class="img-fluid">
+          <h4>Corporate Events</h4></a>
+    
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="serbox"> <a href="wedding-events.html"><img src="./img/bruno-cervera-ZpNBwBR38fA-unsplash.jpg" class="img-fluid">
+          <h4>Wedding Events</h4> </a>
+        
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="serbox"><a href="celebrity-management.html"> <img src="./img/cleb.jpg" class="img-fluid">
+          <h4>Celebrity Management</h4></a>
+        
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="serbox"><a href="pr-management.html"> <img src="./img/evangeline-shaw-nwLTVwb7DbU-unsplash.jpg" class="img-fluid">
+          <h4>PR Management </h4></a>
+     
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</section>
+<section class="bgab">
+  <div class="container">
+  
+    <div class="row">
+      <div class="col-md-8">
+        <div class="abserv">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="servi">  <span class="icon-service6"></span></div>
+              <h4> Food and catering</h4>
+            </div>
+            <div class="col-md-4">
+              <div class="servi1">
+                <div class="servi">  <span class="icon-service5"></span></div>
+                <h4>Planning & Designing</h4>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="servi1">
+                <div class="servi">  <span class="icon-service4"></span></div>
+                <h4> Travel & Transportation </h4>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="servi1">
+                <div class="servi">  <span class="icon-service2"></span></div>
+                <h4>Creative Services</h4>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="servi1">
+                <div class="servi">  <span class="icon-service3"></span></div>
+                <h4> Entertainment Services</h4>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="servi1">
+                <div class="servi">  <span class="icon-service1"></div>
+                <h4 class="deco"> Decorations  </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="abuspage pt-5 pb-5">
+          <h3>What we offer</h3>
+        </div>
+        <div class=""> <a href="#home" class="btn bgbtn  col-md-6">More Service</a> </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="bg22">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <h3> Managing events is a cakewalk for us! You have an upcoming event? We have the solutions! 
+            </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 p-5 text-center">
+          <div class="process"> <span class="sc_services_item_number">1</span> </div>
+          <div class="sc_services_item_info pt-5">
+            <h4>Find the perfect venue for free  </h4>
+            <a href="#" class="sc_button mt-5"> <span class="sc_button_icon"><span class="icon-arrow_bottom"></span></span> </a> </div>
+        </div>
+        <div class="col-md-4 p-5 text-center">
+          <div class="process"> <span class="sc_services_item_number">2</span> </div>
+          <div class="sc_services_item_info pt-5">
+            <h4>Connect with the best vendors </h4>
+            <a href="#" class="sc_button mt-5"> <span class="sc_button_icon"><span class="icon-arrow_bottom"></span></span> </a> </div>
+        </div>
+        <div class="col-md-4 p-5 text-center">
+          <div class="process"> <span class="sc_services_item_number">3</span> </div>
+          <div class="sc_services_item_info pt-5">
+            <h4>Let us help you with event management  </h4>
+            <a href="#" class="sc_button mt-5"> <span class="sc_button_icon"><span class="icon-arrow_bottom"></span></span> </a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg33 pb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="abuspage pt-0 pb-1">
+          <h3>We are here to help you</h3>
+        </div>
+        <div class="contacts_info"><i class="fa fa-envelope-o"></i> <a href="/cdn-cgi/l/email-protection#c8a6a9a5ad88adb0a9a5b8a4ade6aba7a5" class="contacts_info"><span class="__cf_email__" data-cfemail="f59c9b939ab5c6c3c59083909b818599949b9b908786db969a98">[email&#160;protected]</span></a> <br>
+         <i class="fa fa-phone"></i> <a href="tel:011 48-111-113"  class="contacts_info">011-4811-1113 (Delhi)  </a> <br>
+          <i class="fa fa-phone"></i> <a href="tel:080-46759518"  class="contacts_info">080-4675-9518 (Bangalore)</a> <br>
+		   <i class="fa fa-mobile"></i> <a href="tel:98-1084-3676"  class="contacts_info">+91-98-1084-3676</a>
+		  </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+<section class="bottom-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="footerbt">
+          <h3>ABOUT US</h3>
+          <p> 360 Event Planners is a leading event management company  in India. We plan and organize parties, conferences, corporate events, weddings, PR events, celebrity events and practically anything that our customers demand! We have creative and experienced event management planners on board to help us serve you better. </p>
+        </div>
+      </div>
+      <div class="col-md-4 rightsec">
+        <div class="footerbt">
+          <h3>GET IN TOUCH</h3>
+          <p><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:011 48-111-113">011-4811-1113 (Delhi)  </a> <br>
+            <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:080-46759518">+91-80-4675-9518 (Bangalore)</a><br>
+			<i class="fa fa-mobile" aria-hidden="true"></i> <a href="tel:+91 98-1084-3676">+91-98-1084-3676</a><br>
+           <i class="fa fa-envelope" aria-hidden="true"></i> <a href="/cdn-cgi/l/email-protection#761f18101936454046051304001f151305581f18"><span class="__cf_email__" data-cfemail="4b22252d240b787d7b2e3d2e253f3b272a25252e393865282426">[email&#160;protected]</span> </a> </p>
+        </div>
+      </div>
+      <div class="col-md-12 pt-0">
+        <div class="copyright mt-5 pt-4 text-center">
+          <p>Copyright © 2024 All Rights Reserved 360 Event Planners. <a href="privacy-policy.php" style="color: #fff;">Privacy Policy</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
+
+
+ 
